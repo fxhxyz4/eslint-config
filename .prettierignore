@@ -18,3 +18,5 @@ coverage
 .*ignore
 .jshintrc
 .stylelintrc
+.npmrc
+.nvmrc
