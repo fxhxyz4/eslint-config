@@ -4,3 +4,4 @@ release.sh
 *.lock
 .prettierrc.js
 .prettierignore
+.nvmrc

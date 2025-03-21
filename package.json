@@ -1,9 +1,8 @@
 {
   "name": "@fxhxyz/eslint-config",
-  "version": "1.0.1",
-  "type": "module",
+  "version": "1.0.0",
+  "type": "commonjs",
   "description": "My eslint config for web/node dev",
-  "main": "./eslint.js",
   "keywords": [
     "eslint config",
     "config"
@@ -32,21 +31,18 @@
   "publishConfig": {
     "access": "public"
   },
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "8.27.0",
-    "@typescript-eslint/parser": "8.27.0",
-    "eslint": "9.22.0",
-    "eslint-config-prettier": "10.1.1",
-    "eslint-plugin-html": "8.1.2",
-    "eslint-plugin-import": "2.31.0",
-    "eslint-plugin-jsx-a11y": "6.10.2",
-    "eslint-plugin-prettier": "5.2.3"
-  },
   "engines": {
     "node": "20.x"
   },
   "devDependencies": {
     "@fxhxyz/prettier-config": "1.1.0",
     "prettier": "3.5.3"
+  },
+  "peerDependencies": {
+    "eslint": "8.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "8.27.0",
+    "@typescript-eslint/parser": "8.27.0"
   }
 }
