@@ -20,22 +20,16 @@ pnpm add @fxhxyz/eslint-config -D
 
 + ***usage commonjs***
 ```js
-// .prettierrc.cjs
-const config = require("@fxhxyz/prettier-config").default;
-module.exports = config;
+// .eslintrc.cjs
+module.exports = {
+  extends: ["@fxhxyz/eslint-config/lib/nodejs.js"]
+};
 
+// nodejs.js
+// nodets.js
+// webjs.js
+// webts.js
 
-// package.json
-"scripts": {
-    "format": "prettier --write ."
-}
-```
-
-+ ***usage es6***
-```js
-// .prettierrc.mjs/.js
-import config from "@fxhxyz/prettier-config";
-export { config };
 
 // package.json
 "scripts": {
