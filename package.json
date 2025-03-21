@@ -1,6 +1,6 @@
 {
   "name": "@fxhxyz/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "commonjs",
   "description": "My eslint config for web/node dev",
   "keywords": [
