@@ -22,7 +22,7 @@ pnpm add @fxhxyz/eslint-config -D
 ```js
 // .eslintrc.cjs
 module.exports = {
-  extends: ["@fxhxyz/eslint-config/lib/nodejs.js"]
+  extends: ["@fxhxyz/eslint-config/nodejs.js"]
 };
 
 // nodejs.js
