@@ -1,7 +1,7 @@
 {
   "name": "@fxhxyz/eslint-config",
   "version": "1.0.7",
-  "type": "module",
+  "type": "commonjs",
   "description": "My eslint config for web/node dev",
   "keywords": [
     "eslint config",
