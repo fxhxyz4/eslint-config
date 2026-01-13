@@ -1,4 +1,4 @@
-### @fxhxyz/prettier-config
+### @fxhxyz/eslint-config
 
 #
 
