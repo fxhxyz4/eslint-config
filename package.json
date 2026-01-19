@@ -35,7 +35,7 @@
     "node": "20.x"
   },
   "devDependencies": {
-    "@fxhxyz/prettier-config": "1.2.0",
+    "@fxhxyz/prettier-config": "2.0.8",
     "prettier": "3.7.4"
   },
   "peerDependencies": {
