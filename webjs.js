@@ -28,7 +28,6 @@ module.exports = {
   rules: {
     "no-console": "warn",
     "no-multi-spaces": "warn",
-    indent: ["error", 2],
     "eol-last": ["warn", "always"],
     "object-curly-spacing": ["warn", "always"],
     "comma-dangle": ["warn", "always-multiline"],
@@ -42,8 +41,6 @@ module.exports = {
     "no-shadow-restricted-names": "error",
     eqeqeq: "error",
     "no-var": "error",
-    // "prefer-const": "error",
-    strict: ["error", "global"],
     semi: ["error", "always"],
     quotes: ["error", "double"],
     "arrow-parens": ["error", "always"],
