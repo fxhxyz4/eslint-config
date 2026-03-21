@@ -2,7 +2,7 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   parserOptions: {
     project: "./tsconfig.json",
-    ecmaVersion: 12,
+    ecmaVersion: 2021,
     sourceType: "module",
   },
   env: {
@@ -27,9 +27,9 @@ module.exports = {
   ],
   extends: [
     "eslint:recommended",
-    "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:@typescript-eslint/recommended-type-checked",
+    "plugin:prettier/recommended",
   ],
   plugins: ["prettier", "@typescript-eslint"],
   rules: {
@@ -43,10 +43,8 @@ module.exports = {
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/ban-ts-comment": "off",
-    "@typescript-eslint/indent": ["warn", 2],
     "no-console": "warn",
     "no-multi-spaces": "warn",
-    indent: ["error", 2],
     "eol-last": ["warn", "always"],
     "object-curly-spacing": ["warn", "always"],
     "comma-dangle": ["warn", "always-multiline"],
@@ -60,8 +58,6 @@ module.exports = {
     "no-shadow-restricted-names": "error",
     eqeqeq: "error",
     "no-var": "error",
-    // "prefer-const": "error",
-    strict: ["error", "global"],
     semi: ["error", "always"],
     quotes: ["error", "double"],
     "arrow-parens": ["error", "always"],
